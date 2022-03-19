@@ -27,7 +27,7 @@ const VerifyOTP = () => {
             <br />
             <span className='code_query' style={{ marginBottom: "10px" }}>Didn't get the code? <Link to={'/verifyOTP'}>Resend</Link></span>
             <div className='button-inverted'>
-                <Button color='primary' block onClick={() => navigate("/otp")}>Continue Using Password</Button>
+                <Button color='primary' block onClick={() => navigate("/login")}>Continue Using Password</Button>
             </div>
             <br />
             <span className='account_ready'>Having Trouble Logging in? <Link to={'/register'} style={{ fontWeight: "500" }}>Get Help</Link></span>
