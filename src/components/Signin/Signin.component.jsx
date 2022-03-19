@@ -20,7 +20,7 @@ const Signin = () => {
             </div>
             <br />
             <div className='button'>
-                <Button color='primary' block onClick={() => navigate("/resetpassword")}>Generate OTP</Button>
+                <Button color='primary' block onClick={() => navigate("/password")}>Generate OTP</Button>
             </div>
         </div>
     )
