@@ -1,0 +1,12 @@
+.Input {
+  width: 300px;
+  border-radius: 0;
+
+  & Input {
+    background: #f2ffff;
+  }
+  & Input:focus {
+    background-color: #ccffff;
+    box-shadow: 1px 1px 3px 1px #dddddd;
+  }
+}

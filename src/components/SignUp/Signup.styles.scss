@@ -1,0 +1,46 @@
+:root {
+  accent-color: #8000ff;
+}
+Form .minimized_input {
+  width: 140px;
+  background: #f2ffff;
+}
+.minimized {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.small_words {
+  color: #6d6d6d;
+  font-size: 11px;
+  margin-top: -15px;
+  margin-bottom: 10px;
+}
+.account_ready {
+  color: #6d6d6d;
+  font-size: 11px;
+  text-align: center;
+
+  & a {
+    font-weight: bold;
+    color: #8000ff;
+    text-decoration: none;
+  }
+}
+.policy {
+  margin-left: 22px;
+}
+/* Creating a custom checkbox
+based on demand */
+input[type="checkbox"] {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+}
+
+.checkbox {
+  display: flex;
+  position: relative;
+}
